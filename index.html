@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoAI Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🎬 VideoAI Studio</h1>
+    <p>Transforme suas ideias em vídeos com Inteligência Artificial</p>
+</header>
+
+<main class="container">
+
+    <h2>Crie seu vídeo de 30 segundos</h2>
+
+    <textarea id="prompt"
+        placeholder="Descreva o vídeo que deseja criar..."></textarea>
+
+    <button onclick="gerarVideo()">
+        🚀 Gerar vídeo
+    </button>
+
+    <div id="status"></div>
+
+    <div class="resultado">
+        <h3>Seu vídeo</h3>
+        <video id="video" controls></video>
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 VideoAI Studio</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
